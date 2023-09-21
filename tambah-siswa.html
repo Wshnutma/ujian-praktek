@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td height="150px" weidth="120px" align="center" colspan="2">Header</td>
+        </tr>
+        <tr>
+            <!-- sidebar kiri -->
+            <td weidth="300px">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="tambah-siswa.html">Tambah data siswa</a></li>
+                    <li><a href="tampil.html">Tampil data siswa</a></li>
+                </ul>
+            </td>
+            <!-- konten -->
+            <td weidth="900px">
+                <form action="">
+                    <label for="nis">Nis : </label>
+                    <input type="number" name="nis" id="">
+                    <br>
+                    <label for="nama">Nama</label>
+                    <input type="text" name="nama" id="">
+                    <br>
+                    <label for="tgl-lahir">Tanggal Lahir :</label>
+                    <input type="date" name="tgl-lahir" id="">
+                    <br>
+                    <label for="kelas">Kelas : </label>
+                    <select name="" id="">
+                        <option value="">12 RPL 1</option>
+                        <option value="">12 RPL 2</option>
+                    </select>
+                    <br>
+                    <label for="kelamin">Jenis Kelamin : </label>
+                    <input type="radio" name="kelamin" id=""> Laki Laki
+                    <input type="radio" name="kelamin" id=""> Perempuan
+                    <br>
+                    <label for="hobi">Hobi : </label><br>
+                    <input type="checkbox" name="hobi" id="">Main PUBG<br>
+                    <input type="checkbox" name="hobi" id="">Main Futsal<br>
+                    <input type="checkbox" name="hobi" id="">Tidur<br>
+                    <label for="alamat">Alamat : </label>
+                    <textarea name="alamat" id="" cols="30" rows="10"></textarea><br>
+                    <label for="upload">Upload foto</label>
+                    <input type="file" name="upload" id=""><br>
+                    <button type="reset">reset</button>
+                    <button type="submit" name="submit">daftar</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
